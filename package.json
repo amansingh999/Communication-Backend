@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mongodb": "^6.4.0",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "cross-env NODE_OPTIONS='--inspect' nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
